@@ -43,18 +43,20 @@ li {
 }
 
 .sect-1 {
-    padding: 0 40px;
+    padding: 12rem 40px;
     display: flex;
-
 }
 
+#Rightsection {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 #Rightsection img {
     height: 250px;
     width: 250px;
     border-radius: 100%;
-
-
 }
 
 button {
@@ -66,12 +68,14 @@ button {
 
 .display-flex {
     display: flex;
-   justify-content: space-between;
+    justify-content: space-between;
     padding: 30px;
     font-size: x-large;
     background-color: skyblue;
-    
+}
 
+#sect-2 {
+    background-color: #EDF7FA !important;
 }
 
 
@@ -83,60 +87,64 @@ button {
     background-color: skyblue;
 
 }
-#left{
+
+#left {
     display: flex;
     flex-direction: column;
     width: 50%;
     background-color: white;
     margin-right: 40px;
-    
+    padding: 20px;
 }
 
-#right{
+#right {
     width: 50%;
     background-color: white;
-  
-    
+
+
 }
 
-    
-    .wraparound{
-        display: flex;
-        }
-        .poop{
-            padding: 0 5px;
-        }
 
-    #time{
-        display: flex;
-        
-    }
+.wraparound {
+    display: flex;
+}
 
-    .adventure{
-        width: 300px;
-        height:200px;
-        padding: 0px 6px;
-    }
-    .finn{
-        display: flex;
-        font-size: large;
-        
-    }
-    .vamp{
-        padding-right:  8px;
-        background-color: purple;
-        height:  20px;
-        width: 40px;
-        border-radius: 100%;
-    }
-    .forrest{
-        width:70%;
-        font-size: x-large;
-    }
-    .class{
-        color: grey;
-    }
-    
-   
+.poop {
+    padding: 0 5px;
+}
 
+#time {
+    display: flex;
+
+}
+
+.adventure {
+    width: 300px;
+    height: 200px;
+    padding: 0px 6px;
+}
+
+.finn {
+    display: flex;
+    font-size: large;
+
+}
+
+.vamp {
+    background: #142850;
+    border-radius: 16px;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 900;
     
+    margin-right: 20px
+}
+
+.forrest {
+    width: 70%;
+    font-size: x-large;
+}
+
+.class {
+    color: grey;
+}
