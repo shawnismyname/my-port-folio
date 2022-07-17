@@ -1,56 +1,142 @@
-.idk{
-text-decoration: none;
-list-style: none;
-display: flex;
-justify-content: end;
+.idk {
+    text-decoration: none;
+    list-style: none;
+    display: flex;
+    justify-content: end;
 }
-li{
-    color:salmon;
-    }
-    .home-a{
-        color:black;
-        font-size: large;
-        padding: 0px 10px;
-        font-weight: 500;
-    font-family: 'Heebo' , sans-serif;   
-        font-weight: 500;
-        font-size: 30px;
-        list-style: none;
-        text-decoration: none;
-        
+
+li {
+    color: salmon;
+}
+
+.home-a {
+    color: black;
+    font-size: large;
+    padding: 0px 10px;
+    font-weight: 500;
+    font-family: 'Heebo', sans-serif;
+    font-weight: 500;
+    font-size: 30px;
+    list-style: none;
+    text-decoration: none;
+
+
+}
+
+.active {
+    color: lime;
+    font-family: 'Heebo', sans-serif;
+    font-weight: 500;
+    font-size: 30px;
+    list-style: none;
+    text-decoration: none;
+    padding: 0px 10px;
+}
+
+
+#Leftsection,
+#Rightsection {
+    padding: 0 50px;
+    width: 50%;
+    justify-content: space-evenly;
+
+}
+
+.sect-1 {
+    padding: 0 40px;
+    display: flex;
+
+}
+
+
+#Rightsection img {
+    height: 250px;
+    width: 250px;
+    border-radius: 100%;
+
+
+}
+
+button {
+    padding: 30px;
+    border-style: none;
+    color: white;
+    font-size: larger;
+}
+
+.display-flex {
+    display: flex;
+   justify-content: space-between;
+    padding: 30px;
+    font-size: x-large;
+    background-color: skyblue;
     
-    }
-    .active{
-        color: lime;
-        font-family: 'Heebo' , sans-serif;   
-        font-weight: 500;
-        font-size: 30px;
-        list-style: none;
-        text-decoration: none;
-        padding: 0px 10px;
-    }
+
+}
+
+
+.flexout {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+    font-size: larger;
+    background-color: skyblue;
+
+}
+#left{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    background-color: white;
+    margin-right: 40px;
     
+}
+
+#right{
+    width: 50%;
+    background-color: white;
+  
     
-    #Leftsection, #Rightsection{
-        padding: 50px 0 ;
-        width: 50%;
-        
-    }
-    section{
-        padding: 0 40px;
+}
+
+    
+    .wraparound{
         display: flex;
+        }
+        .poop{
+            padding: 0 5px;
+        }
+
+    #time{
+        display: flex;
+        
     }
 
-    #Rightsection img {
-        height: 250px;
-        width: 250px;
-        border-radius: 100%;
-      }
-    
-      button {
-        padding: 20px;
-        border-style: none;
-        color: white;
-        font-size: larger;
+    .adventure{
+        width: 300px;
+        height:200px;
+        padding: 0px 6px;
     }
+    .finn{
+        display: flex;
+        font-size: large;
+        
+    }
+    .vamp{
+        padding-right:  8px;
+        background-color: purple;
+        height:  20px;
+        width: 40px;
+        border-radius: 100%;
+    }
+    .forrest{
+        width:70%;
+        font-size: x-large;
+    }
+    .class{
+        color: grey;
+    }
+    
+   
+
     
