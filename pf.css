@@ -148,3 +148,14 @@ button {
 .class {
     color: grey;
 }
+
+.icons{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.instagram {
+    margin-right: 20px;
+    margin-left: 20px;
+}
